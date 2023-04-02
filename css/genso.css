@@ -88,20 +88,20 @@ body{
     margin-left: 200px;
 }
 
-.wrapper .main_content .header{
+.wrapper .main_content .header {
     padding: 20px;
     background: #fff;
     color: #717171;
     border-bottom: 1px solid #e0e4e8;
 }
 
-.wrapper .main_content .info{
+.wrapper .main_content .info {
     margin: 20px;
     color: #717171;
     line-height: 25px;
 }
 
-.wrapper .main_content .info div{
+.wrapper .main_content .info div {
     margin-bottom: 20px;
 }
 

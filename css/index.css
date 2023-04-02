@@ -118,11 +118,11 @@ img {
     background-position: center;
 }
 
-.wrapper .main_content .mb-600 {
+.wrapper .main_content .img-move {
     margin-bottom: 600px;
 }
 
-.wrapper .main_content .mb-600 h2 {
+.wrapper .main_content .img-move h2 {
     margin-bottom: 100px;
     text-align: center;
 }
