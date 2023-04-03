@@ -10,6 +10,7 @@
         <link rel="shortcut icon" href="./img/icon.ico">
         <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/load.css">
+        <link rel="stylesheet" type="text/css" href="./css/cat.css">
     </head>
     <body>
         <div id="splash">
@@ -40,45 +41,24 @@
                     <div class="header"><strong>トップページ</strong></div>
                     <div class="info">
                         <img class="top-image" src="./img/header_genso_img.png" alt="">
+                        <p>元素が全くわからない！</p>
+                        <p>どうやって計算するの？</p>
+                        <p>モルってなんだよ(殴</p>
+                        <p>そんな人に向けたページとなっています</p>
                         &nbsp;
-                        <div>元素が全くわからない！</div>
-                        <div>どうやって計算するの？</div>
-                        <div>モルってなんだよ(殴</div>
-                        <div>そんな人に向けたページとなっています</div>
+                        <p>※NyanCatは関係ありません</p>
+                        &nbsp;
+                        <div id="particles-js"></div><script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script><script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+                        &nbsp;
                     </div>
-                    <div class="img-move">
-                        <img class="fadein" src="./img/H2O.png" alt="" style="display: block; margin: auto;">
-                    </div>
-                    <div class="img-move">
-                        <img class="fadein left" src="./img/H2O.png" alt="" style="display: block; margin: auto;">
-                    </div>
-                    <div class="img-move">
-                        <img class="fadein right" src="./img/H2O.png" alt="" style="display: block; margin: auto;">
-                    </div>
-                    <div class="img-move">
-                        <img class="fadein top" src="./img/H2O.png" alt="" style="display: block; margin: auto;">
-                    </div>
-                    <h2>H₂Oしか出てこないやんけ！</h2>
                 </div>
-                <script>
-                    $(function () {
-                        $(window).scroll(function() {
-                            $('.fadein').each(function () {
-                                var targetElement = $(this).offset().top;
-                                var scroll = $(window).scrollTop();
-                                var windowHeight = $(window).height();
-                                if (scroll > targetElement - windowHeight + 150) {
-                                    $(this).addClass('scrollin');
-                                }
-                            });
-                        });
-                    });
-                </script>
             </div>
         <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
         <script src="./js/load.js"></script>
+        <script src="./js/cat.js"></script>
     </body>
 </html>
